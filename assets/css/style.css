@@ -43,7 +43,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-  background-color: rgb(var(--color_19));
+  background-color: rgb(42, 56, 61);
 }
 
 .section-header {
@@ -56,7 +56,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: rgb(var(--color_19));
+  color: rgb(74, 133, 145);
   text-transform: uppercase;
 }
 
@@ -66,7 +66,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: rgb(var(--color_19));
+  color: rgb(74, 133, 145);
 }
 
 @media (max-width: 768px) {
@@ -571,10 +571,9 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f3f2ebd1;
+  background-color: #f3f2eb33;
   padding: 20px;
   width: 100%;
-  border-radius: 3%;
 }
 
 
@@ -595,16 +594,18 @@ section {
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: rgb(var(--color_15));
+  color: rgb(74, 133, 145);
+  box-shadow: rgb(156, 186, 192);
+  box-shadow: 6px;
 }
 
 .about p {
   margin: 15px 0 10px 0;
-  line-height: 24px;
-  font-family: sans-serif;
-  font-weight:500;
+  line-height: 26px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
   text-align: justify;
-  color: rgb(var(--color_15));
+  color: rgb(242, 241, 235);
 }
 
 .about .btn-read-more {
@@ -831,8 +832,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+ .services {
+  background-color: rgb(255, 255, 255);
+}
+
 .services .service-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px rgba(134, 134, 134, 0.692);
   height: 100%;
   padding: 60px 30px;
   text-align: center;
@@ -1087,15 +1092,44 @@ section {
 --------------------------------------------------------------*/
 .faq .accordion-collapse {
   border: 0;
+  background-color: rgb(248, 248, 248);
 }
 
-.faq .accordion-button {
+.faq .accordion-button::after
+{
+  color: rgb(248, 248, 248);
+}
+
+.faq .accordion-button  {
+  background-color: rgb(42, 56, 61);
+}
+
+
+
+.faq .accordion-body  {
+  background-color: rgb(42, 56, 61);
+}
+
+.faq .accordion-body p{
+  color:  rgb(248, 248, 248);
+}
+
+.faq .accordion-header{
+  background-color: rgb(42, 56, 61);
+}
+
+.faq .accordion-button{
   padding: 15px 15px 20px 0;
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: rgb(242, 241, 235);
   text-align: left;
+}
+
+.faq .member-img:after{
+  background-color: rgb(255, 255, 255);
+
 }
 
 .faq .accordion-button:focus {
@@ -1104,7 +1138,7 @@ section {
 
 .faq .accordion-button:not(.collapsed) {
   background: none;
-  color: #4154f1;
+  color: rgb(74, 133, 145);
   border-bottom: 0;
 }
 
