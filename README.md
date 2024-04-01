@@ -8,10 +8,11 @@
 > 6. Entregue este README.md dentro da pasta raiz do seu repositório de entrega. Peça ajuda se não souber como editar ou entregar!
 > Opcional: você pode alterar a formatação do README, mas mantenha todas as informações solicitadas
 
-![Substitua a imagem ao lado por um screenshot do seu projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto")
+![screenshot](https://github.com/elc1090/project1-2024a-GalileuGalilei/assets/76018038/34aa71e5-bca2-4182-a114-a410bff0bd91)
 
 
-Acesso: Substitua este texto pela URL para acesso ao site publicado
+
+Acesso: https://elc1090.github.io/project1-2024a-GalileuGalilei/
 
 
 #### Desenvolvedor(a)
@@ -19,6 +20,7 @@ Alfredo Cossetin Neto - CC
 
 
 #### Site/app escolhido
+Horus Gastro Genius
 
 ##### Link
 https://www.horusgastrogenius.com.br
