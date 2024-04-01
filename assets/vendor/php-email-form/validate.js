@@ -43,13 +43,22 @@
         } else {
           displayError(thisForm, 'The reCaptcha javascript API url is not loaded!')
         }
-      } else {
-        php_email_form_submit(thisForm, action, formData);
+      } else 
+      {
+        console.log('email enviado');
+        //php_email_form_submit(thisForm, action, formData);
+        //para fins de estudo, fingir que o email foi enviado
+        setTimeout(() => {
+          thisForm.querySelector('.loading').classList.remove('d-block');
+          thisForm.querySelector('.sent-message').classList.add('d-block');
+          thisForm.reset();
+        }, 2000);
       }
     });
   });
 
   function php_email_form_submit(thisForm, action, formData) {
+
     fetch(action, {
       method: 'POST',
       body: formData,
