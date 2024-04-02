@@ -22,13 +22,11 @@ Icones muito grandes. O site é muito mais comprido do que realmente precisa.
 
 #### Desenvolvimento
 
-Dado o fato de que não sou web desing e minha mínima experiência com isso no passado me levou a perceber que nunca o serei, decidi que a melhor maneira de consertar o site seria usando  um desing já pronto. Por isso, decidi usar um template do bootstrap e recriar a página em cima dele.
+Dado o fato de que não sou web desing, e minha mínima experiência com isso no passado me levou a perceber que nunca o serei, decidi que a melhor maneira de consertar o site seria usando  um desing já pronto. Por isso, decidi usar um template do bootstrap e recriar a página em cima dele.
 
 O site original foi feito em Wix e possui algumas features que não eram possíveis de recriar, como algumas imagens e animações, após sofrer muito decidi que seria mais fácil apenas tirar um print da imagem original.
 
-Os templates do bootstrap possuem um grid system que faz a tabulação dos items da página, apesar de permitir qualquer tipo de configuração, não é nem um pouco intuítivo, então foi outro item no qual gastei muito tempo aprendendo e testando.
-
-Algumas seções do site original não possuiam uma equivalência adequada com o template, em especial as seções `Sobre` e `Evolua`. Estas seções foram praticamente desenhadas complemtamente por mim.
+Naturalmente, as partes mais desafiadoras eram quando não havia correspondência direta entre o site original e o template. Nessas situações, tive que fazer as adaptações, aprendendo a lidar com o sistema de grades do Bootstrap(o qual não achei muito intuitivo). Além disso, houve seções da página que precisei desenvolver completamente do zero, como foi o caso das seções "Sobre" e "Evolua".
 
 
 #### Tecnologias
